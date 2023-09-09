@@ -1,6 +1,7 @@
 import Expense from "./components/Expense/Expense";
 import "./App.css";
 
+import NewExpense from "./components/New Expense Form/NewExpense";
 function App() {
   const expenses = [
     {
@@ -23,7 +24,12 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  return <Expense expenses={expenses}></Expense>;
+  return (
+    <div>
+      <NewExpense></NewExpense>
+      <Expense expenses={expenses}></Expense>
+    </div>
+  );
 }
 
 export default App;
