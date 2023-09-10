@@ -24,6 +24,24 @@ function App() {
       amount: 300,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: "e5",
+      title: "Hair Cut",
+      amount: 350,
+      date: new Date(2023, 5, 10),
+    },
+    {
+      id: "e6",
+      title: "Badminton Racket",
+      amount: 2000,
+      date: new Date(2023, 6, 12),
+    },
+    {
+      id: "e7",
+      title: "Summer Course Repeat",
+      amount: 6000,
+      date: new Date(2023, 7, 14),
+    },
   ];
   const [expenses, setExpenses] = useState(dummy_expenses);
   const addExpenseHandler = (expense) => {
