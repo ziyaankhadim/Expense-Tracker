@@ -38,8 +38,8 @@ function App() {
     },
     {
       id: "e7",
-      title: "Summer Course Repeat",
-      amount: 6000,
+      title: "React Course",
+      amount: 3000,
       date: new Date(2023, 7, 14),
     },
   ];
